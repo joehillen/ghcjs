@@ -13,9 +13,8 @@ installed under the name `ghc-api-ghcjs`
 #### getting and preparing the source tree
 
 ```
-$ git clone https://github.com/ghcjs/ghcjs.git
+$ git clone --recursive https://github.com/ghcjs/ghcjs.git
 $ cd ghcjs
-$ git submodule update --init
 $ ./utils/boot
 
 if you want to build with a Cabal sandbox, use the `makeSandbox.sh` script
